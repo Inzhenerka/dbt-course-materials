@@ -1,21 +1,13 @@
-## Аватарки
+## Материалы курса dbt для Tilda LMS
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Hacker.jpg?raw=true" alt="Хакер" style="max-width: 100px;">
-    </td>
-    <td style="padding-left: 10px; vertical-align: bottom;"><b>Хакер</b></td>
-  </tr>
-</table>
+### Арт
 
-```html
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Hacker.jpg?raw=true" alt="Хакер" style="max-width: 100px;">
-    </td>
-    <td style="padding-left: 10px; vertical-align: bottom;"><b>Хакер</b></td>
-  </tr>
-</table>
-```
+Изображения для использования в LMS путем вставки HTML-кода.
+
+[/art](art)
+
+### HTML-сниппеты
+
+Расширяют возможности LMS за счет вставки подготовленного HTML-кода.
+
+[/html](html)
