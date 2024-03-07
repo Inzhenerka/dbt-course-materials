@@ -1,4 +1,4 @@
 # HTML-сниппеты
 
-- [avatar](avatar) - аватарки персонажей
-- [spoiler](spoiler) - раскрывающиеся подсказки
+- [avatar](avatar.md) - аватарки персонажей
+- [spoiler](spoiler.md) - раскрывающиеся подсказки
