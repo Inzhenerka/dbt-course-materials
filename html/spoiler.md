@@ -12,7 +12,7 @@
 <html>
     <head>
         <style>
-            .accordion-header {
+            .it-accordion-header {
                 background-color: #ebebeb;
                 color: #444;
                 cursor: pointer;
@@ -24,15 +24,14 @@
                 font-size: 18px;
                 transition: 0.4s;
                 font-family: "Source Code Pro", "Arial", Roboto, "Open Sans",
-                    sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
-                    Oxygen, Cantarell, "Helvetica Neue";
+                    sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+                    Cantarell, "Helvetica Neue";
             }
-
-            .accordion-header:hover,
-            .accordion-header.active {
+            .it-accordion-header:hover,
+            .it-accordion-header.active {
                 background-color: #ccc;
             }
-            .accordion-content {
+            .it-accordion-content {
                 padding: 0 18px;
                 display: none;
                 overflow: hidden;
@@ -41,9 +40,8 @@
     </head>
     <body>
         <script>
-            var acc = document.getElementsByClassName("accordion-header");
+            var acc = document.getElementsByClassName("it-accordion-header");
             var i;
-
             for (i = 0; i < acc.length; i++) {
                 acc[i].addEventListener("click", function () {
                     this.classList.toggle("active");
@@ -63,13 +61,17 @@
 2. Содержательный блок: заголовок и скрытый текст
 
 ```html
-<button class="accordion-header"><p>Подсказка 1 ▼</p></button>
-<div class="accordion-content">
+<button class="it-accordion-header">
+    Подсказка 1 ▼
+</button>
+<div class="it-accordion-content">
     <p>Содержимое подсказки 1</p>
 </div>
 
-<button class="accordion-header">Подсказка 2 ▼</button>
-<div class="accordion-content">
+<button class="it-accordion-header">
+    Подсказка 2 ▼
+</button>
+<div class="it-accordion-content">
     <p>Содержимое подсказки 2</p>
 </div>
 ```
