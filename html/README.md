@@ -4,3 +4,4 @@
 - [avatar](avatar.md) - аватарки персонажей
 - [spoiler](spoiler.md) - раскрывающиеся подсказки
 - [quotation](quotation.md) - многострочная цитата
+- [achievement](achievement.md) - ачивка
