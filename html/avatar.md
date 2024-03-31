@@ -102,3 +102,16 @@
   </tr>
 </table>
 ```
+
+### <Блогер>
+
+```html
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Blogger.jpg?raw=true" alt="Блогер" style="max-width: 100px;">
+    </td>
+    <td style="padding-left: 10px; vertical-align: bottom; font-weight: bold;">«Я у мамы дата-инженер»<br>Блог Антона Умного</td>
+  </tr>
+</table>
+```
