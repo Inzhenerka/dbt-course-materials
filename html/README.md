@@ -5,3 +5,4 @@
 - [spoiler](spoiler.md) - раскрывающиеся подсказки
 - [quotation](quotation.md) - многострочная цитата
 - [achievement](achievement.md) - ачивка
+- [runaway_emoji](runaway_emoji.md) - убегающий эмоджи
