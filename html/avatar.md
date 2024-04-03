@@ -115,3 +115,16 @@
   </tr>
 </table>
 ```
+
+### <Бот>
+
+```html
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Bot.jpg?raw=true" alt="Бот" style="max-width: 100px;">
+    </td>
+    <td style="padding-left: 10px; vertical-align: bottom; font-weight: bold;">Inzhenerka dbt bot</td>
+  </tr>
+</table>
+```
