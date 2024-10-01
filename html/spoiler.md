@@ -10,51 +10,24 @@
 
 ```html
 <html>
-    <head>
-        <style>
-            .it-accordion-header {
-                background-color: #ebebeb;
-                color: #444;
-                cursor: pointer;
-                padding: 15px;
-                width: 100%;
-                border: none;
-                text-align: left;
-                outline: none;
-                font-size: 18px;
-                transition: 0.4s;
-                font-family: "Source Code Pro", "Arial", Roboto, "Open Sans",
-                    sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
-                    Cantarell, "Helvetica Neue";
-            }
-            .it-accordion-header:hover,
-            .it-accordion-header.active {
-                background-color: #ccc;
-            }
-            .it-accordion-content {
-                padding: 0 18px;
-                display: none;
-                overflow: hidden;
-            }
-        </style>
-    </head>
-    <body>
-        <script>
-            var acc = document.getElementsByClassName("it-accordion-header");
-            var i;
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    var content = this.nextElementSibling;
-                    if (content.style.display === "block") {
-                        content.style.display = "none";
-                    } else {
-                        content.style.display = "block";
-                    }
-                });
-            }
-        </script>
-    </body>
+  <head>
+    <style>
+    .it-accordion-header{background-color:#ebebeb;color:#444;cursor:pointer;padding:15px;width:100%;border:none;text-align:left;outline:none;font-size:18px;transition:0.4s;font-family:"Source Code Pro",Arial,sans-serif}
+    .it-accordion-header:hover,.it-accordion-header.active{background-color:#ccc}
+    .it-accordion-content{padding:0 18px;display:none;overflow:hidden}
+    </style>
+  </head>
+  <body>
+    <script>
+      document.querySelectorAll(".it-accordion-header").forEach(header => {
+        header.addEventListener("click", function () {
+          this.classList.toggle("active");
+          const content = this.nextElementSibling;
+          content.style.display = content.style.display === "block" ? "none" : "block";
+        });
+      });
+    </script>
+  </body>
 </html>
 ```
 
