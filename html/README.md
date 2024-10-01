@@ -2,6 +2,7 @@
 
 - [image](image.md) - небольшая картинка с подписью
 - [avatar](avatar.md) - аватарки персонажей
+- [cover](cover.md) - обложка
 - [spoiler](spoiler.md) - раскрывающиеся подсказки
 - [quotation](quotation.md) - многострочная цитата
 - [achievement](achievement.md) - ачивка
