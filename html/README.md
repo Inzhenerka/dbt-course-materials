@@ -7,4 +7,4 @@
 - [achievement](achievement.md) - ачивка
 - [runaway_emoji](runaway_emoji.md) - убегающий эмоджи
 - [track_user](track_user.md) - получения профиля Tilda LMS и отправка событий в базу
-- [doodoo](doodoo.md) - чат с Дуду
+- [doudou](doudou.md) - чат с Дуду

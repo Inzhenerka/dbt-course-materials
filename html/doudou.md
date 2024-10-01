@@ -23,12 +23,12 @@
 </head>
 <body>
   <button class="round-button" id="openModalBtn">
-    <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/doodoo2.png?raw=true">
+    <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Doudou2.png?raw=true">
   </button>
   <div class="modal-background" id="modalBackground">
     <div class="modal-content">
       <h2 class="modal-header">Спроси Дуду</h2>
-      <iframe src="https://pumproom.inzhenerka-cloud.com/?repo_name=dbt-Pumping&task_name=0_DooDoo" height="450px" width="100%"></iframe>
+      <iframe src="https://pumproom.inzhenerka-cloud.com/?repo_name=dbt-Pumping&task_name=0_chat" height="450px" width="100%"></iframe>
       <button class="close-button" id="closeModalBtn">Закрыть</button>
     </div>
   </div>
