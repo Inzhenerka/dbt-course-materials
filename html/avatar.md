@@ -12,7 +12,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Hacker.jpg?raw=true" alt="Хакер" style="max-width: 100px;">
+      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Hacker.jpg?raw=true" alt="Хакер" style="max-width: 100px; margin-top: 16px;">
     </td>
     <td style="padding-left: 10px; vertical-align: bottom; font-weight: bold;">Хакер</td>
   </tr>
@@ -31,7 +31,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Farya.jpg?raw=true" alt="Фаря" style="max-width: 100px;">
+      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Farya.jpg?raw=true" alt="Фаря" style="max-width: 100px; margin-top: 16px;">
     </td>
     <td style="padding-left: 10px; vertical-align: bottom; font-weight: bold;">Фаря</td>
   </tr>
@@ -44,7 +44,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Doudou.jpg?raw=true" alt="GPT" style="max-width: 100px;">
+      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Doudou.jpg?raw=true" alt="Doudou" style="max-width: 100px; margin-top: 16px;">
     </td>
     <td style="padding-left: 10px; vertical-align: bottom; font-weight: bold;">Doudou</td>
   </tr>
@@ -57,7 +57,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/GPT.jpg?raw=true" alt="GPT" style="max-width: 100px;">
+      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/GPT.jpg?raw=true" alt="GPT" style="max-width: 100px; margin-top: 16px;">
     </td>
     <td style="padding-left: 10px; vertical-align: bottom; font-weight: bold;">GPT</td>
   </tr>
@@ -70,7 +70,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Hacker.jpg?raw=true" alt="Хакер" style="max-width: 100px;">
+      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Hacker.jpg?raw=true" alt="Хакер" style="max-width: 100px; margin-top: 16px;">
     </td>
     <td style="padding-left: 10px; vertical-align: bottom; font-weight: bold;">Хакер</td>
   </tr>
@@ -83,7 +83,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Igor.jpg?raw=true" alt="Игорь" style="max-width: 100px;">
+      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Igor.jpg?raw=true" alt="Игорь" style="max-width: 100px; margin-top: 16px;">
     </td>
     <td style="padding-left: 10px; vertical-align: bottom; font-weight: bold;">Игорь</td>
   </tr>
@@ -96,7 +96,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Mark.jpg?raw=true" alt="Марк" style="max-width: 100px;">
+      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Mark.jpg?raw=true" alt="Марк" style="max-width: 100px; margin-top: 16px;">
     </td>
     <td style="padding-left: 10px; vertical-align: bottom; font-weight: bold;">Марк</td>
   </tr>
@@ -109,7 +109,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Oleg_Petrovich.jpg?raw=true" alt="Олег Петрович" style="max-width: 100px;">
+      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Oleg_Petrovich.jpg?raw=true" alt="Олег Петрович" style="max-width: 100px; margin-top: 16px;">
     </td>
     <td style="padding-left: 10px; vertical-align: bottom; font-weight: bold;">Олег Петрович</td>
   </tr>
@@ -122,7 +122,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Blogger.jpg?raw=true" alt="Блогер" style="max-width: 100px;">
+      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Blogger.jpg?raw=true" alt="Блогер" style="max-width: 100px; margin-top: 16px;">
     </td>
     <td style="padding-left: 10px; vertical-align: bottom; font-weight: bold;">«Я у мамы дата-инженер»<br>Блог Антона Умного</td>
   </tr>
