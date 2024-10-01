@@ -38,6 +38,19 @@
 </table>
 ```
 
+### Doudou
+
+```html
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Doudou.jpg?raw=true" alt="GPT" style="max-width: 100px;">
+    </td>
+    <td style="padding-left: 10px; vertical-align: bottom; font-weight: bold;">Doudou</td>
+  </tr>
+</table>
+```
+
 ### GPT
 
 ```html
