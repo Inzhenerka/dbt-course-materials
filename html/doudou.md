@@ -7,13 +7,14 @@
 - `iframe src` - ссылка на Дуду для конкретного курса или задания
 
 ```html
+<!-- Doudou chat -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    .round-button{position:fixed;bottom:20px;right:20px;width:80px;height:80px;padding:0;background-color:white;border:2px solid #494fe3;border-radius:50%;cursor:pointer;z-index:1000;box-shadow:0 0 20px 0 rgba(0,0,0,.3)}
+    .round-button{position:fixed;bottom:50px;right:20px;width:80px;height:80px;padding:0;background-color:white;border:2px solid #494fe3;border-radius:50%;cursor:pointer;z-index:1000;box-shadow:0 0 20px 0 rgba(0,0,0,.3)}
     .round-button img{width:100%;height:100%;object-fit:cover;border-radius:50%}
     .modal-background{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);z-index:999;overflow:auto}
     .modal-content{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background-color:white;padding:20px;border-radius:8px;box-shadow:0 5px 15px rgba(0,0,0,0.3);width:100%;height:90%;max-width:950px;max-height:650px;display:flex;flex-direction:column}
