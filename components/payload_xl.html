@@ -1,0 +1,159 @@
+<!-- Doudou chat -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Doudou chat style -->
+        <style>
+            .doudou-round-button {
+                position: fixed;
+                bottom: 70px;
+                right: 20px;
+                width: 80px;
+                height: 80px;
+                padding: 0;
+                background-color: white;
+                border: 2px solid #494fe3;
+                border-radius: 50%;
+                cursor: pointer;
+                z-index: 1000;
+                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+                transition: transform 0.3s ease; /* Smooth animation on hover */
+            }
+            .doudou-round-button:hover {
+                transform: scale(1.05);
+            }
+            .doudou-round-button img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+            .doudou-modal-background {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                z-index: 999;
+                overflow: auto;
+            }
+            .doudou-modal-content {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                width: 100%;
+                height: 90%;
+                max-width: 950px;
+                max-height: 650px;
+                display: flex;
+                flex-direction: column;
+            }
+            .doudou-close-button {
+                background-color: #494fe3;
+                color: white;
+                border: none;
+                width: 100px;
+                padding: 10px 20px;
+                margin: 10px auto 0;
+                cursor: pointer;
+                border-radius: 5px;
+                display: block;
+            }
+            .doudou-modal-header {
+                text-align: center;
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+        </style>
+        <!-- Spoiler style -->
+        <style>
+            .it-accordion-header {
+                background-color: #ebebeb;
+                color: #444;
+                cursor: pointer;
+                padding: 15px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 18px;
+                transition: 0.4s;
+                font-family: "Source Code Pro", Arial, sans-serif;
+            }
+            .it-accordion-header:hover,
+            .it-accordion-header.active {
+                background-color: #ccc;
+            }
+            .it-accordion-content {
+                padding: 0 18px;
+                display: none;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="doudou-round-button" id="openDoudouModalBtn">
+            <img
+                src="https://github.com/Inzhenerka/dbt-course-materials/blob/main/art/Doudou2.png?raw=true"
+            />
+        </button>
+        <div class="doudou-modal-background" id="doudouModalBackground">
+            <div class="doudou-modal-content">
+                <h2 class="doudou-modal-header">Спроси Дуду</h2>
+                <iframe
+                    src="https://pumproom.inzhenerka-cloud.com/?repo_name=dbt-Pumping&task_name=0_chat"
+                    height="450px"
+                    width="100%"
+                ></iframe>
+                <button class="doudou-close-button" id="doudouCloseModalBtn">
+                    Закрыть
+                </button>
+            </div>
+        </div>
+        <!-- Doudou chat script -->
+        <script>
+            const openDoudouModalBtn =
+                    document.getElementById("openDoudouModalBtn"),
+                doudouCloseModalBtn = document.getElementById(
+                    "doudouCloseModalBtn"
+                ),
+                doudouModalBackground = document.getElementById(
+                    "doudouModalBackground"
+                );
+            (openDoudouModalBtn.onclick = function () {
+                doudouModalBackground.style.display = "block";
+            }),
+                (doudouCloseModalBtn.onclick = function () {
+                    doudouModalBackground.style.display = "none";
+                }),
+                (window.onclick = function (e) {
+                    e.target === doudouModalBackground &&
+                        (doudouModalBackground.style.display = "none");
+                });
+        </script>
+        <!-- Spoiler script -->
+        <script>
+            document
+                .querySelectorAll(".it-accordion-header")
+                .forEach((header) => {
+                    header.addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        const content = this.nextElementSibling;
+                        content.style.display =
+                            content.style.display === "block"
+                                ? "none"
+                                : "block";
+                    });
+                });
+        </script>
+    </body>
+</html>
