@@ -9,3 +9,4 @@
 - [runaway_emoji](runaway_emoji.md) - убегающий эмоджи
 - [track_user](track_user.md) - получения профиля Tilda LMS и отправка событий в базу
 - [doudou](doudou.md) - чат с Дуду
+- [profile](profile.md) - профиль пользователя для PumpRoom
