@@ -9,8 +9,9 @@
 <script>
     window.addEventListener("message", event => {
         if (event.origin.endsWith(".inzhenerka-cloud.com") && event.data?.type === "getTildaProfile") {
+            const profile = {...window.parent.tma__getProfileObjFromLS(), page_url: window.location.href}
             event.source.postMessage(
-                { type: "getTildaProfile", data: window.parent.tma__getProfileObjFromLS() }, event.origin
+                { type: "setTildaProfile", profile: profile }, event.origin
             );
         }
     });
