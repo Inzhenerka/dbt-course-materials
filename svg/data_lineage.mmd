@@ -1,0 +1,14 @@
+---
+config:
+  look: neo
+  theme: mc
+---
+graph TD
+    A[users]
+    B[trips]
+    B --> C[trips_prep]
+    C --> D[trips_stat]
+    C --> E[trips_stat_daily]
+    A --> F[trips_age_daily]
+    F --> G[trips_age_daily_stat]
+    C --> F
